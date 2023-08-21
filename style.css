@@ -1,0 +1,96 @@
+body{
+  background-color: hsl(257, 40%, 49%);
+  width: 800px;
+
+}
+.bg{
+  position: relative;
+ 
+}
+.header{
+  font-family: Poppins,Arial;
+  font-weight: 600;
+  color: white;
+  position: absolute;
+  top: 50px; 
+  left: 150px;
+}
+.info{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 200px;
+  left: 90px;
+  padding-bottom: 100px;
+  
+}
+.description{
+  margin-left: 50px;
+  width: 450px;
+}
+.illustration-mockups{
+  height: 500px;
+}
+.text-title{
+  font-family: Poppins,Arial;
+  font-weight: 600;
+  font-size: 30px;
+  color: white;
+  width: 400px;
+  
+}
+.text-info{
+  font-family: Poppins,Arial;
+  font-weight: 400;
+  font-size: 13px;
+  color: white;
+  display: inline-block;
+  width: 400px;
+}
+
+.register-button{
+  background-color: white;
+  color: hsl(257, 40%, 49%);
+  border: none;
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+.register-button:hover{
+  cursor: pointer;
+  background-color: hsl(300, 69%, 71%);
+}
+.icon-button{
+  background-color: transparent;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.icon-button:hover{
+  cursor: pointer;
+  background-color: hsl(300, 69%, 71%);
+}
+.icon{
+  width: 8px;
+  color: white;
+}
+.icon-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 30px;
+  width: 120px;
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+}
+.chat{
+  width: 30px;
+}
